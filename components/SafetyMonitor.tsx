@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
-import { fetchLiveSafetyNews } from '../services/geminiService';
-import { ICONS } from '../constants';
+import { fetchLiveSafetyNews } from '../services/geminiService.ts';
+import { ICONS } from '../constants.tsx';
 
 const SafetyMonitor: React.FC = () => {
   const [data, setData] = useState<any>(null);

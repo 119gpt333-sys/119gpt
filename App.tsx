@@ -1,13 +1,13 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import AIAssistant from './components/AIAssistant';
-import Architecture from './components/Architecture';
-import Database from './components/Database';
-import SafetyMonitor from './components/SafetyMonitor';
-import Contact from './components/Contact';
-import { ICONS } from './constants';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import AIAssistant from './components/AIAssistant.tsx';
+import Architecture from './components/Architecture.tsx';
+import Database from './components/Database.tsx';
+import SafetyMonitor from './components/SafetyMonitor.tsx';
+import Contact from './components/Contact.tsx';
+import { ICONS } from './constants.tsx';
 
 const App: React.FC = () => {
   return (

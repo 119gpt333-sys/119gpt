@@ -1,8 +1,8 @@
 
-import React, { useState, useRef, useEffect } from 'react';
-import { analyzeIncident } from '../services/geminiService';
-import { RiskAnalysis } from '../types';
-import { ICONS } from '../constants';
+import React, { useState } from 'react';
+import { analyzeIncident } from '../services/geminiService.ts';
+import { RiskAnalysis } from '../types.ts';
+import { ICONS } from '../constants.tsx';
 
 const AIAssistant: React.FC = () => {
   const [input, setInput] = useState('');
