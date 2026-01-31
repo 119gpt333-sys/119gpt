@@ -1,0 +1,7 @@
+{
+  "name": "Seoul Fire AI Research Lab",
+  "description": "A high-performance research platform for predictive rescue systems and urban disaster response AI, integrated with Gemini for real-time incident simulation and risk analysis.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
