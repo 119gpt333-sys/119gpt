@@ -27,6 +27,21 @@
             50% { opacity: 0.7; }
         }
         .animate-pulse-soft { animation: pulse-soft 3s infinite ease-in-out; }
+
+        /* Admin Active Styling - Upgraded Visibility */
+        body.admin-active {
+            outline: 8px solid #ea580c;
+            outline-offset: -8px;
+        }
+        
+        @keyframes admin-pulse {
+            0% { outline-color: #ea580c; }
+            50% { outline-color: #f97316; }
+            100% { outline-color: #ea580c; }
+        }
+        body.admin-active {
+            animation: admin-pulse 2s infinite ease-in-out;
+        }
     </style>
     <script type="importmap">
 {
@@ -43,7 +58,6 @@
 </head>
 <body class="bg-white text-zinc-600 antialiased selection:bg-orange-100 selection:text-orange-900">
     <div id="root"></div>
-    <!-- 실행 진입점 스크립트 추가 -->
     <script type="module" src="index.tsx"></script>
 </body>
 </html>

@@ -23,3 +23,10 @@ export interface RiskAnalysis {
   recommendedAction: string;
   suggestedAIModels: string[];
 }
+
+export interface DatabaseCategory {
+  title: string;
+  items: string[];
+  color: string;
+  iconType: 'Code' | 'Fire' | 'Satellite';
+}
